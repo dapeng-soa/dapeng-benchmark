@@ -68,98 +68,24 @@ public final class JsonBenchmark_tinyJsonTest_jmhTest {
         }
         if (threadParams.getSubgroupIndex() == 0) {
             RawResults res = new RawResults();
-            JsonBenchmark_jmhType l_jsonbenchmark0_G = _jmh_tryInit_f_jsonbenchmark0_G(control);
+            JsonBenchmark_jmhType l_jsonbenchmark0_0 = _jmh_tryInit_f_jsonbenchmark0_0(control);
 
             control.preSetup();
 
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                if (JsonBenchmark_jmhType.setupInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                    try {
-                        if (control.isFailing) throw new FailureAssistException();
-                        if (!l_jsonbenchmark0_G.readyInvocation) {
-                            l_jsonbenchmark0_G.readyInvocation = true;
-                        }
-                    } catch (Throwable t) {
-                        control.isFailing = true;
-                        throw t;
-                    } finally {
-                        JsonBenchmark_jmhType.setupInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                    }
-                } else {
-                    while (JsonBenchmark_jmhType.setupInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                        if (control.isFailing) throw new FailureAssistException();
-                        if (Thread.interrupted()) throw new InterruptedException();
-                    }
-                }
-                l_jsonbenchmark0_G.tinyJsonTest();
-                if (JsonBenchmark_jmhType.tearInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                    try {
-                        if (control.isFailing) throw new FailureAssistException();
-                        if (l_jsonbenchmark0_G.readyInvocation) {
-                            l_jsonbenchmark0_G.tinyJsonTest();
-                            l_jsonbenchmark0_G.readyInvocation = false;
-                        }
-                    } catch (Throwable t) {
-                        control.isFailing = true;
-                        throw t;
-                    } finally {
-                        JsonBenchmark_jmhType.tearInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                    }
-                } else {
-                    while (JsonBenchmark_jmhType.tearInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                        if (control.isFailing) throw new FailureAssistException();
-                        if (Thread.interrupted()) throw new InterruptedException();
-                    }
-                }
+                blackhole.consume(l_jsonbenchmark0_0.tinyJsonTest());
                 res.allOps++;
             }
 
             notifyControl.startMeasurement = true;
-            tinyJsonTest_thrpt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_jsonbenchmark0_G);
+            tinyJsonTest_thrpt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_jsonbenchmark0_0);
             notifyControl.stopMeasurement = true;
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    if (JsonBenchmark_jmhType.setupInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                        try {
-                            if (control.isFailing) throw new FailureAssistException();
-                            if (!l_jsonbenchmark0_G.readyInvocation) {
-                                l_jsonbenchmark0_G.readyInvocation = true;
-                            }
-                        } catch (Throwable t) {
-                            control.isFailing = true;
-                            throw t;
-                        } finally {
-                            JsonBenchmark_jmhType.setupInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                        }
-                    } else {
-                        while (JsonBenchmark_jmhType.setupInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                            if (control.isFailing) throw new FailureAssistException();
-                            if (Thread.interrupted()) throw new InterruptedException();
-                        }
-                    }
-                    l_jsonbenchmark0_G.tinyJsonTest();
-                    if (JsonBenchmark_jmhType.tearInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                        try {
-                            if (control.isFailing) throw new FailureAssistException();
-                            if (l_jsonbenchmark0_G.readyInvocation) {
-                                l_jsonbenchmark0_G.tinyJsonTest();
-                                l_jsonbenchmark0_G.readyInvocation = false;
-                            }
-                        } catch (Throwable t) {
-                            control.isFailing = true;
-                            throw t;
-                        } finally {
-                            JsonBenchmark_jmhType.tearInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                        }
-                    } else {
-                        while (JsonBenchmark_jmhType.tearInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                            if (control.isFailing) throw new FailureAssistException();
-                            if (Thread.interrupted()) throw new InterruptedException();
-                        }
-                    }
+                    blackhole.consume(l_jsonbenchmark0_0.tinyJsonTest());
                     res.allOps++;
                 }
                 control.preTearDown();
@@ -168,9 +94,7 @@ public final class JsonBenchmark_tinyJsonTest_jmhTest {
             }
 
             if (control.isLastIteration()) {
-                synchronized(this.getClass()) {
-                    f_jsonbenchmark0_G = null;
-                }
+                f_jsonbenchmark0_0 = null;
             }
             res.allOps += res.measuredOps;
             int batchSize = iterationParams.getBatchSize();
@@ -187,51 +111,12 @@ public final class JsonBenchmark_tinyJsonTest_jmhTest {
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public static void tinyJsonTest_thrpt_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, JsonBenchmark_jmhType l_jsonbenchmark0_G) throws Throwable {
+    public static void tinyJsonTest_thrpt_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, JsonBenchmark_jmhType l_jsonbenchmark0_0) throws Throwable {
         long operations = 0;
         long realTime = 0;
         result.startTime = System.nanoTime();
         do {
-            if (JsonBenchmark_jmhType.setupInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                try {
-                    if (control.isFailing) throw new FailureAssistException();
-                    if (!l_jsonbenchmark0_G.readyInvocation) {
-                        l_jsonbenchmark0_G.readyInvocation = true;
-                    }
-                } catch (Throwable t) {
-                    control.isFailing = true;
-                    throw t;
-                } finally {
-                    JsonBenchmark_jmhType.setupInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                }
-            } else {
-                while (JsonBenchmark_jmhType.setupInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                    if (control.isFailing) throw new FailureAssistException();
-                    if (Thread.interrupted()) throw new InterruptedException();
-                }
-            }
-            long rt = System.nanoTime();
-            l_jsonbenchmark0_G.tinyJsonTest();
-            realTime += (System.nanoTime() - rt);
-            if (JsonBenchmark_jmhType.tearInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                try {
-                    if (control.isFailing) throw new FailureAssistException();
-                    if (l_jsonbenchmark0_G.readyInvocation) {
-                        l_jsonbenchmark0_G.tinyJsonTest();
-                        l_jsonbenchmark0_G.readyInvocation = false;
-                    }
-                } catch (Throwable t) {
-                    control.isFailing = true;
-                    throw t;
-                } finally {
-                    JsonBenchmark_jmhType.tearInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                }
-            } else {
-                while (JsonBenchmark_jmhType.tearInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                    if (control.isFailing) throw new FailureAssistException();
-                    if (Thread.interrupted()) throw new InterruptedException();
-                }
-            }
+            blackhole.consume(l_jsonbenchmark0_0.tinyJsonTest());
             operations++;
         } while(!control.isDone);
         result.stopTime = System.nanoTime();
@@ -250,98 +135,24 @@ public final class JsonBenchmark_tinyJsonTest_jmhTest {
         }
         if (threadParams.getSubgroupIndex() == 0) {
             RawResults res = new RawResults();
-            JsonBenchmark_jmhType l_jsonbenchmark0_G = _jmh_tryInit_f_jsonbenchmark0_G(control);
+            JsonBenchmark_jmhType l_jsonbenchmark0_0 = _jmh_tryInit_f_jsonbenchmark0_0(control);
 
             control.preSetup();
 
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                if (JsonBenchmark_jmhType.setupInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                    try {
-                        if (control.isFailing) throw new FailureAssistException();
-                        if (!l_jsonbenchmark0_G.readyInvocation) {
-                            l_jsonbenchmark0_G.readyInvocation = true;
-                        }
-                    } catch (Throwable t) {
-                        control.isFailing = true;
-                        throw t;
-                    } finally {
-                        JsonBenchmark_jmhType.setupInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                    }
-                } else {
-                    while (JsonBenchmark_jmhType.setupInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                        if (control.isFailing) throw new FailureAssistException();
-                        if (Thread.interrupted()) throw new InterruptedException();
-                    }
-                }
-                l_jsonbenchmark0_G.tinyJsonTest();
-                if (JsonBenchmark_jmhType.tearInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                    try {
-                        if (control.isFailing) throw new FailureAssistException();
-                        if (l_jsonbenchmark0_G.readyInvocation) {
-                            l_jsonbenchmark0_G.tinyJsonTest();
-                            l_jsonbenchmark0_G.readyInvocation = false;
-                        }
-                    } catch (Throwable t) {
-                        control.isFailing = true;
-                        throw t;
-                    } finally {
-                        JsonBenchmark_jmhType.tearInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                    }
-                } else {
-                    while (JsonBenchmark_jmhType.tearInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                        if (control.isFailing) throw new FailureAssistException();
-                        if (Thread.interrupted()) throw new InterruptedException();
-                    }
-                }
+                blackhole.consume(l_jsonbenchmark0_0.tinyJsonTest());
                 res.allOps++;
             }
 
             notifyControl.startMeasurement = true;
-            tinyJsonTest_avgt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_jsonbenchmark0_G);
+            tinyJsonTest_avgt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_jsonbenchmark0_0);
             notifyControl.stopMeasurement = true;
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    if (JsonBenchmark_jmhType.setupInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                        try {
-                            if (control.isFailing) throw new FailureAssistException();
-                            if (!l_jsonbenchmark0_G.readyInvocation) {
-                                l_jsonbenchmark0_G.readyInvocation = true;
-                            }
-                        } catch (Throwable t) {
-                            control.isFailing = true;
-                            throw t;
-                        } finally {
-                            JsonBenchmark_jmhType.setupInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                        }
-                    } else {
-                        while (JsonBenchmark_jmhType.setupInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                            if (control.isFailing) throw new FailureAssistException();
-                            if (Thread.interrupted()) throw new InterruptedException();
-                        }
-                    }
-                    l_jsonbenchmark0_G.tinyJsonTest();
-                    if (JsonBenchmark_jmhType.tearInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                        try {
-                            if (control.isFailing) throw new FailureAssistException();
-                            if (l_jsonbenchmark0_G.readyInvocation) {
-                                l_jsonbenchmark0_G.tinyJsonTest();
-                                l_jsonbenchmark0_G.readyInvocation = false;
-                            }
-                        } catch (Throwable t) {
-                            control.isFailing = true;
-                            throw t;
-                        } finally {
-                            JsonBenchmark_jmhType.tearInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                        }
-                    } else {
-                        while (JsonBenchmark_jmhType.tearInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                            if (control.isFailing) throw new FailureAssistException();
-                            if (Thread.interrupted()) throw new InterruptedException();
-                        }
-                    }
+                    blackhole.consume(l_jsonbenchmark0_0.tinyJsonTest());
                     res.allOps++;
                 }
                 control.preTearDown();
@@ -350,9 +161,7 @@ public final class JsonBenchmark_tinyJsonTest_jmhTest {
             }
 
             if (control.isLastIteration()) {
-                synchronized(this.getClass()) {
-                    f_jsonbenchmark0_G = null;
-                }
+                f_jsonbenchmark0_0 = null;
             }
             res.allOps += res.measuredOps;
             int batchSize = iterationParams.getBatchSize();
@@ -369,51 +178,12 @@ public final class JsonBenchmark_tinyJsonTest_jmhTest {
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public static void tinyJsonTest_avgt_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, JsonBenchmark_jmhType l_jsonbenchmark0_G) throws Throwable {
+    public static void tinyJsonTest_avgt_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, JsonBenchmark_jmhType l_jsonbenchmark0_0) throws Throwable {
         long operations = 0;
         long realTime = 0;
         result.startTime = System.nanoTime();
         do {
-            if (JsonBenchmark_jmhType.setupInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                try {
-                    if (control.isFailing) throw new FailureAssistException();
-                    if (!l_jsonbenchmark0_G.readyInvocation) {
-                        l_jsonbenchmark0_G.readyInvocation = true;
-                    }
-                } catch (Throwable t) {
-                    control.isFailing = true;
-                    throw t;
-                } finally {
-                    JsonBenchmark_jmhType.setupInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                }
-            } else {
-                while (JsonBenchmark_jmhType.setupInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                    if (control.isFailing) throw new FailureAssistException();
-                    if (Thread.interrupted()) throw new InterruptedException();
-                }
-            }
-            long rt = System.nanoTime();
-            l_jsonbenchmark0_G.tinyJsonTest();
-            realTime += (System.nanoTime() - rt);
-            if (JsonBenchmark_jmhType.tearInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                try {
-                    if (control.isFailing) throw new FailureAssistException();
-                    if (l_jsonbenchmark0_G.readyInvocation) {
-                        l_jsonbenchmark0_G.tinyJsonTest();
-                        l_jsonbenchmark0_G.readyInvocation = false;
-                    }
-                } catch (Throwable t) {
-                    control.isFailing = true;
-                    throw t;
-                } finally {
-                    JsonBenchmark_jmhType.tearInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                }
-            } else {
-                while (JsonBenchmark_jmhType.tearInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                    if (control.isFailing) throw new FailureAssistException();
-                    if (Thread.interrupted()) throw new InterruptedException();
-                }
-            }
+            blackhole.consume(l_jsonbenchmark0_0.tinyJsonTest());
             operations++;
         } while(!control.isDone);
         result.stopTime = System.nanoTime();
@@ -432,51 +202,14 @@ public final class JsonBenchmark_tinyJsonTest_jmhTest {
         }
         if (threadParams.getSubgroupIndex() == 0) {
             RawResults res = new RawResults();
-            JsonBenchmark_jmhType l_jsonbenchmark0_G = _jmh_tryInit_f_jsonbenchmark0_G(control);
+            JsonBenchmark_jmhType l_jsonbenchmark0_0 = _jmh_tryInit_f_jsonbenchmark0_0(control);
 
             control.preSetup();
 
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                if (JsonBenchmark_jmhType.setupInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                    try {
-                        if (control.isFailing) throw new FailureAssistException();
-                        if (!l_jsonbenchmark0_G.readyInvocation) {
-                            l_jsonbenchmark0_G.readyInvocation = true;
-                        }
-                    } catch (Throwable t) {
-                        control.isFailing = true;
-                        throw t;
-                    } finally {
-                        JsonBenchmark_jmhType.setupInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                    }
-                } else {
-                    while (JsonBenchmark_jmhType.setupInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                        if (control.isFailing) throw new FailureAssistException();
-                        if (Thread.interrupted()) throw new InterruptedException();
-                    }
-                }
-                l_jsonbenchmark0_G.tinyJsonTest();
-                if (JsonBenchmark_jmhType.tearInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                    try {
-                        if (control.isFailing) throw new FailureAssistException();
-                        if (l_jsonbenchmark0_G.readyInvocation) {
-                            l_jsonbenchmark0_G.tinyJsonTest();
-                            l_jsonbenchmark0_G.readyInvocation = false;
-                        }
-                    } catch (Throwable t) {
-                        control.isFailing = true;
-                        throw t;
-                    } finally {
-                        JsonBenchmark_jmhType.tearInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                    }
-                } else {
-                    while (JsonBenchmark_jmhType.tearInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                        if (control.isFailing) throw new FailureAssistException();
-                        if (Thread.interrupted()) throw new InterruptedException();
-                    }
-                }
+                blackhole.consume(l_jsonbenchmark0_0.tinyJsonTest());
                 res.allOps++;
             }
 
@@ -485,49 +218,12 @@ public final class JsonBenchmark_tinyJsonTest_jmhTest {
             int batchSize = iterationParams.getBatchSize();
             int opsPerInv = benchmarkParams.getOpsPerInvocation();
             SampleBuffer buffer = new SampleBuffer();
-            tinyJsonTest_sample_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, buffer, targetSamples, opsPerInv, batchSize, l_jsonbenchmark0_G);
+            tinyJsonTest_sample_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, buffer, targetSamples, opsPerInv, batchSize, l_jsonbenchmark0_0);
             notifyControl.stopMeasurement = true;
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    if (JsonBenchmark_jmhType.setupInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                        try {
-                            if (control.isFailing) throw new FailureAssistException();
-                            if (!l_jsonbenchmark0_G.readyInvocation) {
-                                l_jsonbenchmark0_G.readyInvocation = true;
-                            }
-                        } catch (Throwable t) {
-                            control.isFailing = true;
-                            throw t;
-                        } finally {
-                            JsonBenchmark_jmhType.setupInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                        }
-                    } else {
-                        while (JsonBenchmark_jmhType.setupInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                            if (control.isFailing) throw new FailureAssistException();
-                            if (Thread.interrupted()) throw new InterruptedException();
-                        }
-                    }
-                    l_jsonbenchmark0_G.tinyJsonTest();
-                    if (JsonBenchmark_jmhType.tearInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                        try {
-                            if (control.isFailing) throw new FailureAssistException();
-                            if (l_jsonbenchmark0_G.readyInvocation) {
-                                l_jsonbenchmark0_G.tinyJsonTest();
-                                l_jsonbenchmark0_G.readyInvocation = false;
-                            }
-                        } catch (Throwable t) {
-                            control.isFailing = true;
-                            throw t;
-                        } finally {
-                            JsonBenchmark_jmhType.tearInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                        }
-                    } else {
-                        while (JsonBenchmark_jmhType.tearInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                            if (control.isFailing) throw new FailureAssistException();
-                            if (Thread.interrupted()) throw new InterruptedException();
-                        }
-                    }
+                    blackhole.consume(l_jsonbenchmark0_0.tinyJsonTest());
                     res.allOps++;
                 }
                 control.preTearDown();
@@ -536,9 +232,7 @@ public final class JsonBenchmark_tinyJsonTest_jmhTest {
             }
 
             if (control.isLastIteration()) {
-                synchronized(this.getClass()) {
-                    f_jsonbenchmark0_G = null;
-                }
+                f_jsonbenchmark0_0 = null;
             }
             res.allOps += res.measuredOps * batchSize;
             res.allOps *= opsPerInv;
@@ -552,7 +246,7 @@ public final class JsonBenchmark_tinyJsonTest_jmhTest {
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public static void tinyJsonTest_sample_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, SampleBuffer buffer, int targetSamples, long opsPerInv, int batchSize, JsonBenchmark_jmhType l_jsonbenchmark0_G) throws Throwable {
+    public static void tinyJsonTest_sample_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, SampleBuffer buffer, int targetSamples, long opsPerInv, int batchSize, JsonBenchmark_jmhType l_jsonbenchmark0_0) throws Throwable {
         long realTime = 0;
         long operations = 0;
         int rnd = (int)System.nanoTime();
@@ -560,25 +254,6 @@ public final class JsonBenchmark_tinyJsonTest_jmhTest {
         long time = 0;
         int currentStride = 0;
         do {
-            if (JsonBenchmark_jmhType.setupInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                try {
-                    if (control.isFailing) throw new FailureAssistException();
-                    if (!l_jsonbenchmark0_G.readyInvocation) {
-                        l_jsonbenchmark0_G.readyInvocation = true;
-                    }
-                } catch (Throwable t) {
-                    control.isFailing = true;
-                    throw t;
-                } finally {
-                    JsonBenchmark_jmhType.setupInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                }
-            } else {
-                while (JsonBenchmark_jmhType.setupInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                    if (control.isFailing) throw new FailureAssistException();
-                    if (Thread.interrupted()) throw new InterruptedException();
-                }
-            }
-            long rt = System.nanoTime();
             rnd = (rnd * 1664525 + 1013904223);
             boolean sample = (rnd & rndMask) == 0;
             if (sample) {
@@ -586,7 +261,7 @@ public final class JsonBenchmark_tinyJsonTest_jmhTest {
             }
             for (int b = 0; b < batchSize; b++) {
                 if (control.volatileSpoiler) return;
-                l_jsonbenchmark0_G.tinyJsonTest();
+                blackhole.consume(l_jsonbenchmark0_0.tinyJsonTest());
             }
             if (sample) {
                 buffer.add((System.nanoTime() - time) / opsPerInv);
@@ -594,26 +269,6 @@ public final class JsonBenchmark_tinyJsonTest_jmhTest {
                     buffer.half();
                     currentStride = 0;
                     rndMask = (rndMask << 1) + 1;
-                }
-            }
-            realTime += (System.nanoTime() - rt);
-            if (JsonBenchmark_jmhType.tearInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                try {
-                    if (control.isFailing) throw new FailureAssistException();
-                    if (l_jsonbenchmark0_G.readyInvocation) {
-                        l_jsonbenchmark0_G.tinyJsonTest();
-                        l_jsonbenchmark0_G.readyInvocation = false;
-                    }
-                } catch (Throwable t) {
-                    control.isFailing = true;
-                    throw t;
-                } finally {
-                    JsonBenchmark_jmhType.tearInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                }
-            } else {
-                while (JsonBenchmark_jmhType.tearInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                    if (control.isFailing) throw new FailureAssistException();
-                    if (Thread.interrupted()) throw new InterruptedException();
                 }
             }
             operations++;
@@ -633,7 +288,7 @@ public final class JsonBenchmark_tinyJsonTest_jmhTest {
             this.blackhole = new Blackhole("Today's password is swordfish. I understand instantiating Blackholes directly is dangerous.");
         }
         if (threadParams.getSubgroupIndex() == 0) {
-            JsonBenchmark_jmhType l_jsonbenchmark0_G = _jmh_tryInit_f_jsonbenchmark0_G(control);
+            JsonBenchmark_jmhType l_jsonbenchmark0_0 = _jmh_tryInit_f_jsonbenchmark0_0(control);
 
             control.preSetup();
 
@@ -641,13 +296,11 @@ public final class JsonBenchmark_tinyJsonTest_jmhTest {
             notifyControl.startMeasurement = true;
             RawResults res = new RawResults();
             int batchSize = iterationParams.getBatchSize();
-            tinyJsonTest_ss_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, batchSize, l_jsonbenchmark0_G);
+            tinyJsonTest_ss_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, batchSize, l_jsonbenchmark0_0);
             control.preTearDown();
 
             if (control.isLastIteration()) {
-                synchronized(this.getClass()) {
-                    f_jsonbenchmark0_G = null;
-                }
+                f_jsonbenchmark0_0 = null;
             }
             int opsPerInv = control.benchmarkParams.getOpsPerInvocation();
             long totalOps = opsPerInv;
@@ -659,78 +312,26 @@ public final class JsonBenchmark_tinyJsonTest_jmhTest {
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public static void tinyJsonTest_ss_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, int batchSize, JsonBenchmark_jmhType l_jsonbenchmark0_G) throws Throwable {
+    public static void tinyJsonTest_ss_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, int batchSize, JsonBenchmark_jmhType l_jsonbenchmark0_0) throws Throwable {
         long realTime = 0;
         result.startTime = System.nanoTime();
         for (int b = 0; b < batchSize; b++) {
             if (control.volatileSpoiler) return;
-            if (JsonBenchmark_jmhType.setupInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                try {
-                    if (control.isFailing) throw new FailureAssistException();
-                    if (!l_jsonbenchmark0_G.readyInvocation) {
-                        l_jsonbenchmark0_G.readyInvocation = true;
-                    }
-                } catch (Throwable t) {
-                    control.isFailing = true;
-                    throw t;
-                } finally {
-                    JsonBenchmark_jmhType.setupInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                }
-            } else {
-                while (JsonBenchmark_jmhType.setupInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                    if (control.isFailing) throw new FailureAssistException();
-                    if (Thread.interrupted()) throw new InterruptedException();
-                }
-            }
-            long rt = System.nanoTime();
-            l_jsonbenchmark0_G.tinyJsonTest();
-            realTime += (System.nanoTime() - rt);
-            if (JsonBenchmark_jmhType.tearInvocationMutexUpdater.compareAndSet(l_jsonbenchmark0_G, 0, 1)) {
-                try {
-                    if (control.isFailing) throw new FailureAssistException();
-                    if (l_jsonbenchmark0_G.readyInvocation) {
-                        l_jsonbenchmark0_G.tinyJsonTest();
-                        l_jsonbenchmark0_G.readyInvocation = false;
-                    }
-                } catch (Throwable t) {
-                    control.isFailing = true;
-                    throw t;
-                } finally {
-                    JsonBenchmark_jmhType.tearInvocationMutexUpdater.set(l_jsonbenchmark0_G, 0);
-                }
-            } else {
-                while (JsonBenchmark_jmhType.tearInvocationMutexUpdater.get(l_jsonbenchmark0_G) == 1) {
-                    if (control.isFailing) throw new FailureAssistException();
-                    if (Thread.interrupted()) throw new InterruptedException();
-                }
-            }
+            blackhole.consume(l_jsonbenchmark0_0.tinyJsonTest());
         }
         result.stopTime = System.nanoTime();
         result.realTime = realTime;
     }
 
     
-    static volatile JsonBenchmark_jmhType f_jsonbenchmark0_G;
+    JsonBenchmark_jmhType f_jsonbenchmark0_0;
     
-    JsonBenchmark_jmhType _jmh_tryInit_f_jsonbenchmark0_G(InfraControl control) throws Throwable {
-        JsonBenchmark_jmhType val = f_jsonbenchmark0_G;
-        if (val != null) {
-            return val;
-        }
-        synchronized(this.getClass()) {
-            try {
-            if (control.isFailing) throw new FailureAssistException();
-            val = f_jsonbenchmark0_G;
-            if (val != null) {
-                return val;
-            }
+    JsonBenchmark_jmhType _jmh_tryInit_f_jsonbenchmark0_0(InfraControl control) throws Throwable {
+        if (control.isFailing) throw new FailureAssistException();
+        JsonBenchmark_jmhType val = f_jsonbenchmark0_0;
+        if (val == null) {
             val = new JsonBenchmark_jmhType();
-            val.readyTrial = true;
-            f_jsonbenchmark0_G = val;
-            } catch (Throwable t) {
-                control.isFailing = true;
-                throw t;
-            }
+            f_jsonbenchmark0_0 = val;
         }
         return val;
     }

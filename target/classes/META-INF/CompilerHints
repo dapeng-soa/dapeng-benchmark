@@ -3,4 +3,5 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
+inline,com/github/dapeng/jsonBenchmark/JsonBenchmark.doTest
 inline,com/github/dapeng/jsonBenchmark/JsonBenchmark.tinyJsonTest

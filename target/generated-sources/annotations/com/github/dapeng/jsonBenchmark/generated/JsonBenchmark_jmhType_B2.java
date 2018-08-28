@@ -16,7 +16,4 @@ public class JsonBenchmark_jmhType_B2 extends JsonBenchmark_jmhType_B1 {
     public final static AtomicIntegerFieldUpdater<JsonBenchmark_jmhType_B2> setupInvocationMutexUpdater = AtomicIntegerFieldUpdater.newUpdater(JsonBenchmark_jmhType_B2.class, "setupInvocationMutex");
     public final static AtomicIntegerFieldUpdater<JsonBenchmark_jmhType_B2> tearInvocationMutexUpdater = AtomicIntegerFieldUpdater.newUpdater(JsonBenchmark_jmhType_B2.class, "tearInvocationMutex");
 
-    public volatile boolean readyTrial;
-    public volatile boolean readyIteration;
-    public volatile boolean readyInvocation;
 }
