@@ -1,0 +1,12 @@
+{
+  "body": {
+    "request": {
+      "v_string1": "name",
+      "v_string2": "age",
+      "v_i32": 20,
+      "v_i64": 253,
+      "v_string3": "kakak",
+      "v_double": "23.3"
+    }
+  }
+}

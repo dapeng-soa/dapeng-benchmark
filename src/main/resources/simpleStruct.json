@@ -1,0 +1,57 @@
+{
+  "body": {
+    "request": {
+      "v_string1": "andd",
+      "v_string2": "djjjd",
+      "v_int1": 256,
+      "v_int2": 322,
+      "v_struct1": {
+        "v_string1": "djuij",
+        "v_string2": "jjddd",
+        "v_i32": 145,
+        "v_i64": 236596,
+        "v_string3": "kijhdd",
+        "v_bool": "true"
+      },
+      "v_struct2": {
+        "v_string1": "shaer",
+        "v_string2": "sdkdd",
+        "v_i32": 256,
+        "v_i64": 25462,
+        "v_string3": "dkdkkd",
+        "v_double": "254.36"
+      },
+      "v_list": [
+        "sss",
+        "sdsdsd",
+        "asdsa"
+      ],
+      "v_map": {
+        "namee": {
+          "jiud": 256,
+          "kokdd": 1475
+        },
+        "agedd": {
+          "dere": 1425,
+          "kiujjj": 2546
+        }
+      },
+      "v_struct3": {
+        "v_string1": "ddko",
+        "v_string2": "kdkdo",
+        "v_i32": 253,
+        "v_i64": 245655,
+        "v_string3": "lgdd",
+        "v_struct": {
+          "v_string1": "kidh",
+          "v_string2": "dkooow",
+          "v_i32": 25647,
+          "v_i64": 3659874,
+          "v_string3": "bngdee",
+          "v_bool": "true"
+        }
+      },
+      "v_bool": "false"
+    }
+  }
+}

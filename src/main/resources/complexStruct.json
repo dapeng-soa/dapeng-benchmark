@@ -1,0 +1,586 @@
+{
+  "body": {
+    "request": {
+      "v_string1": "jack",
+      "v_string2": "tony",
+      "v_string3": "tom",
+      "v_int1": 25,
+      "v_int2": 36,
+      "v_long1": 2586,
+      "v_long2": 34785,
+      "v_short1": 123,
+      "v_short2": 965,
+      "v_string_list": [
+        "GGG",
+        "LOL",
+        "KOK"
+      ],
+      "v_int_list": [
+        25,
+        56,
+        11
+      ],
+      "v_long_list": [
+        2589,
+        4856
+      ],
+      "v_list_list": [
+        [
+          "LPLP",
+          "ddd2"
+        ],
+        [
+          "dee",
+          "plpl4"
+        ]
+      ],
+      "v_string_map": {
+        "tony": "boy",
+        "jance": "girl"
+      },
+      "v_int_map": {
+        "age": 25,
+        "high": 185
+      },
+      "v_int2_map": {
+        "25": 175
+      },
+      "v_map_map": {
+        "tonydd": {
+          "name": "niki",
+          "seeedd": "bodd"
+        },
+        "ddd": {
+          "sss": "dddfef"
+        }
+      },
+      "v_easyStruct1": {
+        "v_string1": "fgfgf",
+        "v_string2": "drfggh",
+        "v_i32": 255,
+        "v_i64": 36954,
+        "v_string3": "rfdsdfg",
+        "v_bool": "false"
+      },
+      "v_easyStruct2": {
+        "v_string1": "ejuyju",
+        "v_string2": "frrafg",
+        "v_i32": 56,
+        "v_i64": 584124,
+        "v_string3": "kuu",
+        "v_double": "256.32"
+      },
+      "v_easyStruct3": {
+        "v_string1": "fgrt",
+        "v_string2": "aerr",
+        "v_i32": 365,
+        "v_i64": 78451,
+        "v_string3": "gthth",
+        "v_struct": {
+          "v_string1": "ferfe",
+          "v_string2": "sssffe",
+          "v_i32": 562,
+          "v_i64": 4758,
+          "v_string3": "dfesju",
+          "v_bool": "true"
+        }
+      },
+      "v_simpleStruct1": {
+        "v_string1": "frgg",
+        "v_string2": "eswert",
+        "v_int1": 4875,
+        "v_int2": 450,
+        "v_struct1": {
+          "v_string1": "grgrdd",
+          "v_string2": "sdrgrg",
+          "v_i32": 54,
+          "v_i64": 4758,
+          "v_string3": "grgrgs",
+          "v_bool": "true"
+        },
+        "v_struct2": {
+          "v_string1": "dsfgr",
+          "v_string2": "swqtg",
+          "v_i32": 588,
+          "v_i64": 36547,
+          "v_string3": "frfgre",
+          "v_double": "5453666"
+        },
+        "v_list": [
+          "grgr",
+          "grgrgrddd",
+          "hthth"
+        ],
+        "v_map": {
+          "frrerg": {
+            "ssss": 255,
+            "gtgtgt": 253
+          }
+        },
+        "v_struct3": {
+          "v_string1": "wehyh",
+          "v_string2": "asdzws",
+          "v_i32": 25,
+          "v_i64": 789554,
+          "v_string3": "ththh",
+          "v_struct": {
+            "v_string1": "dfdfd",
+            "v_string2": "ddwhh",
+            "v_i32": 254,
+            "v_i64": 36541,
+            "v_string3": "serrr",
+            "v_bool": "true"
+          }
+        },
+        "v_bool": "true"
+      },
+      "v_simpleStruct2": {
+        "v_string1": "vfdcvv",
+        "v_string2": "nvnbv",
+        "v_int1": 254,
+        "v_int2": 3652,
+        "v_struct1": {
+          "v_string1": "frff",
+          "v_string2": "sss",
+          "v_i32": 254,
+          "v_i64": 36541,
+          "v_string3": "ddff",
+          "v_bool": "false"
+        },
+        "v_struct2": {
+          "v_string1": "gtgt",
+          "v_string2": "dfg",
+          "v_i32": 36,
+          "v_i64": 25465,
+          "v_string3": "derft",
+          "v_double": "65834.32"
+        },
+        "v_list": [
+          "frffrr",
+          "rfdsssf",
+          "gtgt"
+        ],
+        "v_map": {
+          "kukuku": {
+            "yhyjyj": 25
+          },
+          "hyhjyj": {
+            "jyjyj": 555
+          }
+        },
+        "v_struct3": {
+          "v_string1": "dggdg",
+          "v_string2": "ddgsdgh",
+          "v_i32": 555,
+          "v_i64": 6652,
+          "v_string3": "hththt",
+          "v_struct": {
+            "v_string1": "dfghdsg",
+            "v_string2": "grgr",
+            "v_i32": 5585,
+            "v_i64": 546563,
+            "v_string3": "dgdsger",
+            "v_bool": "true"
+          }
+        },
+        "v_bool": "true"
+      },
+      "v_int_set": [
+        22,
+        1142,
+        22
+      ],
+      "v_double_set": [
+        "25353.42",
+        "4444"
+      ],
+      "v_map_string_list": [
+        {
+          "dg": "dfdsg",
+          "fdgd": "dfgd"
+        }
+      ],
+      "v_map_int_list": [
+        {
+          "dfgre": 555
+        },
+        {
+          "dgr": 556,
+          "dgre": 236
+        }
+      ],
+      "v_list_int_list": [
+        [
+          12,
+          12
+        ],
+        [
+          2,
+          35,
+          55
+        ]
+      ],
+      "v_list_long_list": [
+        [
+          252827,
+          25353
+        ],
+        [
+          2525,
+          25
+        ]
+      ],
+      "v_string_set_list": [
+        [
+          "pooo",
+          "opoop"
+        ],
+        [
+          "yuio",
+          "yuyui",
+          "oui"
+        ]
+      ],
+      "v_int_set_list": [
+        [
+          25,
+          252
+        ],
+        [
+          22,
+          35
+        ]
+      ],
+      "v_long_set_list": [
+        [
+          555,
+          2222
+        ],
+        [
+          555,
+          4453
+        ]
+      ],
+      "v_string_list_set": [
+        [
+          "dfdfsfsd",
+          "sfsdfsf",
+          "fsadfsdf"
+        ],
+        [
+          "ssdaf",
+          "fsas",
+          "sfdsdfa"
+        ],
+        [
+          "wewe",
+          "ewew"
+        ]
+      ],
+      "v_int_list_set": [
+        [
+          1414,
+          14,
+          252
+        ],
+        [
+          21,
+          22
+        ]
+      ],
+      "v_double_list_set": [
+        [
+          "2525.5",
+          "252.54"
+        ],
+        [
+          "8585.22",
+          "4525.54"
+        ]
+      ],
+      "v_easyStruct4": {
+        "v_string1": "sfs",
+        "v_string2": "saf",
+        "v_i32": 5,
+        "v_i64": 455,
+        "v_string3": "sergg",
+        "v_struct": {
+          "v_string1": "grgr",
+          "v_string2": "dgrg",
+          "v_i32": 22,
+          "v_i64": 365,
+          "v_string3": "dfger",
+          "v_bool": "false"
+        }
+      },
+      "v_easyStruct5": {
+        "v_string1": "gregh",
+        "v_string2": "gvrtyh",
+        "v_i32": 566,
+        "v_i64": 3522,
+        "v_string3": "grge",
+        "v_struct": {
+          "v_string1": "gre",
+          "v_string2": "yj",
+          "v_i32": 22,
+          "v_i64": 5633,
+          "v_string3": "grtgh",
+          "v_bool": "true"
+        }
+      },
+      "v_easyStruct6": {
+        "v_string1": "erff",
+        "v_string2": "ggrh",
+        "v_i32": 36,
+        "v_i64": 3254,
+        "v_string3": "gdrgr",
+        "v_struct": {
+          "v_string1": "drgr",
+          "v_string2": "htht",
+          "v_i32": 365,
+          "v_i64": 36524,
+          "v_string3": "drgr",
+          "v_bool": "true"
+        }
+      },
+      "v_easyStruct7": {
+        "v_string1": "rgrgr",
+        "v_string2": "dds",
+        "v_i32": 66,
+        "v_i64": 325,
+        "v_string3": "htth",
+        "v_struct": {
+          "v_string1": "effe",
+          "v_string2": "sss",
+          "v_i32": 365,
+          "v_i64": 123654,
+          "v_string3": "dfefe",
+          "v_bool": "true"
+        }
+      },
+      "v_easyStruct8": {
+        "v_string1": "fefe",
+        "v_string2": "sss",
+        "v_i32": 336,
+        "v_i64": 3654,
+        "v_string3": "sfe",
+        "v_struct": {
+          "v_string1": "bgbtg",
+          "v_string2": "nhgfgb",
+          "v_i32": 258,
+          "v_i64": 25,
+          "v_string3": "lolo",
+          "v_bool": "true"
+        }
+      },
+      "v_easyStruct9": {
+        "v_string1": "kkkjo",
+        "v_string2": "kjdd",
+        "v_i32": 256,
+        "v_i64": 2456,
+        "v_string3": "loood",
+        "v_struct": {
+          "v_string1": "kok",
+          "v_string2": "pldss",
+          "v_i32": 145,
+          "v_i64": 58854,
+          "v_string3": "olodd",
+          "v_bool": "true"
+        }
+      },
+      "v_easyStruct10": {
+        "v_string1": "dikiq",
+        "v_string2": "ppld",
+        "v_i32": 585,
+        "v_i64": 9635,
+        "v_string3": "oldd",
+        "v_struct": {
+          "v_string1": "pkloi",
+          "v_string2": "ddd",
+          "v_i32": 585,
+          "v_i64": 65585,
+          "v_string3": "455",
+          "v_bool": "true"
+        }
+      },
+      "v_easyStruct11": {
+        "v_string1": "ddd",
+        "v_string2": "pobnhd",
+        "v_i32": 474,
+        "v_i64": 45896,
+        "v_string3": "nhcfg",
+        "v_struct": {
+          "v_string1": "mijjd",
+          "v_string2": "kkdd",
+          "v_i32": 455,
+          "v_i64": 4856214,
+          "v_string3": "uujd",
+          "v_bool": "false"
+        }
+      },
+      "v_simpleStruct3": {
+        "v_string1": "dddqf",
+        "v_string2": "ikkd",
+        "v_int1": 1452,
+        "v_int2": 1445,
+        "v_struct1": {
+          "v_string1": "ddddkgf",
+          "v_string2": "zcvgx",
+          "v_i32": 4474,
+          "v_i64": 5652257,
+          "v_string3": "mnbcde",
+          "v_bool": "true"
+        },
+        "v_struct2": {
+          "v_string1": "ujudq",
+          "v_string2": "kdkdk",
+          "v_i32": 456,
+          "v_i64": 25462,
+          "v_string3": "kidkdk",
+          "v_double": "25653663.2"
+        },
+        "v_list": [
+          "ssff",
+          "bvvfv",
+          "ddd"
+        ],
+        "v_map": {
+          "sfsf": {
+            "sg": 25,
+            "sfefe": 236
+          }
+        },
+        "v_struct3": {
+          "v_string1": "sfe",
+          "v_string2": "fefew",
+          "v_i32": 256,
+          "v_i64": 2555,
+          "v_string3": "sdfef",
+          "v_struct": {
+            "v_string1": "wfefe",
+            "v_string2": "sffe",
+            "v_i32": 2563,
+            "v_i64": 2564548,
+            "v_string3": "fewf",
+            "v_bool": "false"
+          }
+        },
+        "v_bool": "true"
+      },
+      "v_simpleStruct4": {
+        "v_string1": "sffew",
+        "v_string2": "sefewdf",
+        "v_int1": 256,
+        "v_int2": 2561,
+        "v_struct1": {
+          "v_string1": "fef",
+          "v_string2": "sfswf",
+          "v_i32": 22,
+          "v_i64": 6552,
+          "v_string3": "ookkdk",
+          "v_bool": "true"
+        },
+        "v_struct2": {
+          "v_string1": "fewf",
+          "v_string2": "sfsf",
+          "v_i32": 255,
+          "v_i64": 25622,
+          "v_string3": "ffwsf",
+          "v_double": "3652"
+        },
+        "v_list": [
+          "sffeesf",
+          "fsxs"
+        ],
+        "v_map": {
+          "fff": {
+            "defe": 2,
+            "fxx": 5
+          }
+        },
+        "v_struct3": {
+          "v_string1": "sdfsf",
+          "v_string2": "cvbvv",
+          "v_i32": 213,
+          "v_i64": 324234,
+          "v_string3": "gdgd",
+          "v_struct": {
+            "v_string1": "rewerw",
+            "v_string2": "fff",
+            "v_i32": 44,
+            "v_i64": 3245,
+            "v_string3": "fgdg",
+            "v_bool": "true"
+          }
+        },
+        "v_bool": "false"
+      },
+      "v_simpleStruct5": {
+        "v_string1": "cbgrebvg",
+        "v_string2": "dgd",
+        "v_int1": 23,
+        "v_int2": 231,
+        "v_struct1": {
+          "v_string1": "dg",
+          "v_string2": "fgdg",
+          "v_i32": 23,
+          "v_i64": 345345,
+          "v_string3": "34566",
+          "v_bool": "true"
+        },
+        "v_struct2": {
+          "v_string1": "dbd",
+          "v_string2": "dbb",
+          "v_i32": 23,
+          "v_i64": 65559,
+          "v_string3": "cvb",
+          "v_double": "23423.23"
+        },
+        "v_list": [
+          "dgg",
+          "gregegr",
+          "greg"
+        ],
+        "v_map": {
+          "gerg": {
+            "gerg": 2
+          }
+        },
+        "v_struct3": {
+          "v_string1": "geg",
+          "v_string2": "cgerg",
+          "v_i32": 23,
+          "v_i64": 2345,
+          "v_string3": "bffbgb",
+          "v_struct": {
+            "v_string1": "egrege",
+            "v_string2": "dgdfg",
+            "v_i32": 213,
+            "v_i64": 342,
+            "v_string3": "brbrf",
+            "v_bool": "true"
+          }
+        },
+        "v_bool": "true"
+      },
+      "v_map_list_list": [
+        [
+          {
+            "egrg": "gerg",
+            "gerg": "egre"
+          },
+          {
+            "gerg": "gerg"
+          }
+        ]
+      ],
+      "v_string_list_map": {
+        "gerg": [
+          "gerg",
+          "btr"
+        ]
+      },
+      "v_enum": "DEMO3"
+    }
+  }
+}

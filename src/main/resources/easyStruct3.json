@@ -1,0 +1,19 @@
+{
+  "body": {
+    "request": {
+      "v_string1": "name",
+      "v_string2": "age",
+      "v_i32": 25,
+      "v_i64": 236,
+      "v_string3": "hui",
+      "v_struct": {
+        "v_string1": "tongu",
+        "v_string2": "badkkd",
+        "v_i32": 233,
+        "v_i64": 15621,
+        "v_string3": "jane",
+        "v_bool": "true"
+      }
+    }
+  }
+}

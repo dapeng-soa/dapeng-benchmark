@@ -1,0 +1,35 @@
+{
+  "body": {
+    "request": {
+      "v_bool": "false",
+      "v_i16": 12,
+      "v_i32": 365,
+      "v_i64": 125642,
+      "v_double": "2365.32",
+      "v_string": "kokok",
+      "v_struct": {
+        "v_string1": "hidee",
+        "v_string2": "surpee",
+        "v_i32": 256,
+        "v_i64": 1478523,
+        "v_string3": "dhyhh",
+        "v_bool": "true"
+      },
+      "v_map": {
+        "name": "hui",
+        "age": "23"
+      },
+      "v_set": [
+        "tony",
+        "huui",
+        "fei"
+      ],
+      "v_list": [
+        "jane",
+        "huid",
+        "dhuij"
+      ],
+      "v_enum": "DEMO2"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "body": {
+    "request": {
+      "v_string1": "name",
+      "v_string2": "sss",
+      "v_i32": 123,
+      "v_i64": 45454,
+      "v_string3": "kiki",
+      "v_bool": "true"
+    }
+  }
+}

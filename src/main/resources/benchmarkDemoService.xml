@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service namespace="com.github.dapeng.benchmark.service" name="benchmarkDemoService">
+    <meta>
+        <version>1.0.0</version>
+        <timeout>30000</timeout>
+    </meta>
+    <methods>
+        <method name="setAllStruct">
+            <request name="setAllStruct_args">
+                <fields>
+                    <field tag="1" name="request" optional="false" privacy="false">
+                        <dataType>
+                            <kind>STRUCT</kind>
+                            <ref>com.github.dapeng.benchmark.structs.allStruct</ref>
+                        </dataType>
+                        <doc></doc>
+                    </field>
+                </fields>
+            </request>
+            <response name="setAllStruct_result">
+                <fields>
+                    <field tag="0" name="success" optional="false" privacy="false">
+                        <dataType>
+                            <kind>VOID</kind>
+                        </dataType>
+                        <doc></doc>
+                    </field>
+                </fields>
+            </response>
+            <isSoaTransactionProcess>false</isSoaTransactionProcess>
+        </method>
+        <method name="setEasyStruct1">
+            <request name="setEasyStruct1_args">
+                <fields>
+                    <field tag="1" name="request" optional="false" privacy="false">
+                        <dataType>
+                            <kind>STRUCT</kind>
+                            <ref>com.github.dapeng.benchmark.structs.easyStruct1</ref>
+                        </dataType>
+                        <doc></doc>
+                    </field>
+                </fields>
+            </request>
+            <response name="setEasyStruct1_result">
+                <fields>
+                    <field tag="0" name="success" optional="false" privacy="false">
+                        <dataType>
+                            <kind>VOID</kind>
+                        </dataType>
+                        <doc></doc>
+                    </field>
+                </fields>
+            </response>
+            <isSoaTransactionProcess>false</isSoaTransactionProcess>
+        </method>
+        <method name="setEasyStruct2">
+            <request name="setEasyStruct2_args">
+                <fields>
+                    <field tag="1" name="request" optional="false" privacy="false">
+                        <dataType>
+                            <kind>STRUCT</kind>
+                            <ref>com.github.dapeng.benchmark.structs.easyStruct2</ref>
+                        </dataType>
+                        <doc></doc>
+                    </field>
+                </fields>
+            </request>
+            <response name="setEasyStruct2_result">
+                <fields>
+                    <field tag="0" name="success" optional="false" privacy="false">
+                        <dataType>
+                            <kind>VOID</kind>
+                        </dataType>
+                        <doc></doc>
+                    </field>
+                </fields>
+            </response>
+            <isSoaTransactionProcess>false</isSoaTransactionProcess>
+        </method>
+        <method name="setEasyStruct3">
+            <request name="setEasyStruct3_args">
+                <fields>
+                    <field tag="1" name="request" optional="false" privacy="false">
+                        <dataType>
+                            <kind>STRUCT</kind>
+                            <ref>com.github.dapeng.benchmark.structs.easyStruct3</ref>
+                        </dataType>
+                        <doc></doc>
+                    </field>
+                </fields>
+            </request>
+            <response name="setEasyStruct3_result">
+                <fields>
+                    <field tag="0" name="success" optional="false" privacy="false">
+                        <dataType>
+                            <kind>VOID</kind>
+                        </dataType>
+                        <doc></doc>
+                    </field>
+                </fields>
+            </response>
+            <isSoaTransactionProcess>false</isSoaTransactionProcess>
+        </method>
+        <method name="setSimpleStruct">
+            <request name="setSimpleStruct_args">
+                <fields>
+                    <field tag="1" name="request" optional="false" privacy="false">
+                        <dataType>
+                            <kind>STRUCT</kind>
+                            <ref>com.github.dapeng.benchmark.structs.simpleStruct</ref>
+                        </dataType>
+                        <doc></doc>
+                    </field>
+                </fields>
+            </request>
+            <response name="setSimpleStruct_result">
+                <fields>
+                    <field tag="0" name="success" optional="false" privacy="false">
+                        <dataType>
+                            <kind>VOID</kind>
+                        </dataType>
+                        <doc></doc>
+                    </field>
+                </fields>
+            </response>
+            <isSoaTransactionProcess>false</isSoaTransactionProcess>
+        </method>
+        <method name="setComplexStruct">
+            <request name="setComplexStruct_args">
+                <fields>
+                    <field tag="1" name="request" optional="false" privacy="false">
+                        <dataType>
+                            <kind>STRUCT</kind>
+                            <ref>com.github.dapeng.benchmark.structs.complexStruct</ref>
+                        </dataType>
+                        <doc></doc>
+                    </field>
+                </fields>
+            </request>
+            <response name="setComplexStruct_result">
+                <fields>
+                    <field tag="0" name="success" optional="false" privacy="false">
+                        <dataType>
+                            <kind>VOID</kind>
+                        </dataType>
+                        <doc></doc>
+                    </field>
+                </fields>
+            </response>
+            <isSoaTransactionProcess>false</isSoaTransactionProcess>
+        </method>
+    </methods>
+    <structs>
+        <struct namespace="com.github.dapeng.benchmark.structs" name="complexStruct">
+            <fields>
+                <field tag="1" name="v_string1" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRING</kind>
+                    </dataType>
+                </field>
+                <field tag="2" name="v_string2" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRING</kind>
+                    </dataType>
+                </field>
+                <field tag="3" name="v_string3" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRING</kind>
+                    </dataType>
+                </field>
+                <field tag="4" name="v_int1" optional="false" privacy="false">
+                    <dataType>
+                        <kind>INTEGER</kind>
+                    </dataType>
+                </field>
+                <field tag="5" name="v_int2" optional="false" privacy="false">
+                    <dataType>
+                        <kind>INTEGER</kind>
+                    </dataType>
+                </field>
+                <field tag="6" name="v_long1" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LONG</kind>
+                    </dataType>
+                </field>
+                <field tag="7" name="v_long2" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LONG</kind>
+                    </dataType>
+                </field>
+                <field tag="8" name="v_short1" optional="false" privacy="false">
+                    <dataType>
+                        <kind>SHORT</kind>
+                    </dataType>
+                </field>
+                <field tag="9" name="v_short2" optional="false" privacy="false">
+                    <dataType>
+                        <kind>SHORT</kind>
+                    </dataType>
+                </field>
+                <field tag="10" name="v_string_list" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LIST</kind>
+                        <valueType>
+                            <kind>STRING</kind>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="11" name="v_int_list" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LIST</kind>
+                        <valueType>
+                            <kind>INTEGER</kind>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="12" name="v_long_list" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LIST</kind>
+                        <valueType>
+                            <kind>LONG</kind>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="13" name="v_list_list" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LIST</kind>
+                        <valueType>
+                            <kind>LIST</kind>
+                            <valueType>
+<kind>STRING</kind>
+                            </valueType>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="14" name="v_string_map" optional="false" privacy="false">
+                    <dataType>
+                        <kind>MAP</kind>
+                        <keyType>
+                            <kind>STRING</kind>
+                        </keyType>
+                        <valueType>
+                            <kind>STRING</kind>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="15" name="v_int_map" optional="false" privacy="false">
+                    <dataType>
+                        <kind>MAP</kind>
+                        <keyType>
+                            <kind>STRING</kind>
+                        </keyType>
+                        <valueType>
+                            <kind>INTEGER</kind>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="16" name="v_int2_map" optional="false" privacy="false">
+                    <dataType>
+                        <kind>MAP</kind>
+                        <keyType>
+                            <kind>INTEGER</kind>
+                        </keyType>
+                        <valueType>
+                            <kind>INTEGER</kind>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="17" name="v_map_map" optional="false" privacy="false">
+                    <dataType>
+                        <kind>MAP</kind>
+                        <keyType>
+                            <kind>STRING</kind>
+                        </keyType>
+                        <valueType>
+                            <kind>MAP</kind>
+                            <keyType>
+<kind>STRING</kind>
+                            </keyType>
+                            <valueType>
+<kind>STRING</kind>
+                            </valueType>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="18" name="v_easyStruct1" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.easyStruct1</ref>
+                    </dataType>
+                </field>
+                <field tag="19" name="v_easyStruct2" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.easyStruct2</ref>
+                    </dataType>
+                </field>
+                <field tag="20" name="v_easyStruct3" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.easyStruct3</ref>
+                    </dataType>
+                </field>
+                <field tag="21" name="v_simpleStruct1" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.simpleStruct</ref>
+                    </dataType>
+                </field>
+                <field tag="22" name="v_simpleStruct2" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.simpleStruct</ref>
+                    </dataType>
+                </field>
+                <field tag="24" name="v_int_set" optional="false" privacy="false">
+                    <dataType>
+                        <kind>SET</kind>
+                        <valueType>
+                            <kind>INTEGER</kind>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="25" name="v_double_set" optional="false" privacy="false">
+                    <dataType>
+                        <kind>SET</kind>
+                        <valueType>
+                            <kind>DOUBLE</kind>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="26" name="v_map_string_list" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LIST</kind>
+                        <valueType>
+                            <kind>MAP</kind>
+                            <keyType>
+<kind>STRING</kind>
+                            </keyType>
+                            <valueType>
+<kind>STRING</kind>
+                            </valueType>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="27" name="v_map_int_list" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LIST</kind>
+                        <valueType>
+                            <kind>MAP</kind>
+                            <keyType>
+<kind>STRING</kind>
+                            </keyType>
+                            <valueType>
+<kind>INTEGER</kind>
+                            </valueType>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="28" name="v_list_int_list" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LIST</kind>
+                        <valueType>
+                            <kind>LIST</kind>
+                            <valueType>
+<kind>INTEGER</kind>
+                            </valueType>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="29" name="v_list_long_list" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LIST</kind>
+                        <valueType>
+                            <kind>LIST</kind>
+                            <valueType>
+<kind>LONG</kind>
+                            </valueType>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="30" name="v_string_set_list" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LIST</kind>
+                        <valueType>
+                            <kind>SET</kind>
+                            <valueType>
+<kind>STRING</kind>
+                            </valueType>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="31" name="v_int_set_list" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LIST</kind>
+                        <valueType>
+                            <kind>SET</kind>
+                            <valueType>
+<kind>INTEGER</kind>
+                            </valueType>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="33" name="v_long_set_list" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LIST</kind>
+                        <valueType>
+                            <kind>SET</kind>
+                            <valueType>
+<kind>LONG</kind>
+                            </valueType>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="34" name="v_string_list_set" optional="false" privacy="false">
+                    <dataType>
+                        <kind>SET</kind>
+                        <valueType>
+                            <kind>LIST</kind>
+                            <valueType>
+<kind>STRING</kind>
+                            </valueType>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="35" name="v_int_list_set" optional="false" privacy="false">
+                    <dataType>
+                        <kind>SET</kind>
+                        <valueType>
+                            <kind>LIST</kind>
+                            <valueType>
+<kind>INTEGER</kind>
+                            </valueType>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="36" name="v_double_list_set" optional="false" privacy="false">
+                    <dataType>
+                        <kind>SET</kind>
+                        <valueType>
+                            <kind>LIST</kind>
+                            <valueType>
+<kind>DOUBLE</kind>
+                            </valueType>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="37" name="v_easyStruct4" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.easyStruct3</ref>
+                    </dataType>
+                </field>
+                <field tag="38" name="v_easyStruct5" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.easyStruct3</ref>
+                    </dataType>
+                </field>
+                <field tag="39" name="v_easyStruct6" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.easyStruct3</ref>
+                    </dataType>
+                </field>
+                <field tag="40" name="v_easyStruct7" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.easyStruct3</ref>
+                    </dataType>
+                </field>
+                <field tag="41" name="v_easyStruct8" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.easyStruct3</ref>
+                    </dataType>
+                </field>
+                <field tag="42" name="v_easyStruct9" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.easyStruct3</ref>
+                    </dataType>
+                </field>
+                <field tag="43" name="v_easyStruct10" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.easyStruct3</ref>
+                    </dataType>
+                </field>
+                <field tag="44" name="v_easyStruct11" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.easyStruct3</ref>
+                    </dataType>
+                </field>
+                <field tag="45" name="v_simpleStruct3" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.simpleStruct</ref>
+                    </dataType>
+                </field>
+                <field tag="46" name="v_simpleStruct4" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.simpleStruct</ref>
+                    </dataType>
+                </field>
+                <field tag="47" name="v_simpleStruct5" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.simpleStruct</ref>
+                    </dataType>
+                </field>
+                <field tag="48" name="v_map_list_list" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LIST</kind>
+                        <valueType>
+                            <kind>LIST</kind>
+                            <valueType>
+<kind>MAP</kind>
+<keyType>
+    <kind>STRING</kind>
+</keyType>
+<valueType>
+    <kind>STRING</kind>
+</valueType>
+                            </valueType>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="49" name="v_string_list_map" optional="false" privacy="false">
+                    <dataType>
+                        <kind>MAP</kind>
+                        <keyType>
+                            <kind>STRING</kind>
+                        </keyType>
+                        <valueType>
+                            <kind>LIST</kind>
+                            <valueType>
+<kind>STRING</kind>
+                            </valueType>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="50" name="v_enum" optional="false" privacy="false">
+                    <dataType>
+                        <kind>ENUM</kind>
+                        <ref>com.github.dapeng.benchmark.enums.demoEnum</ref>
+                    </dataType>
+                </field>
+            </fields>
+        </struct>
+        <struct namespace="com.github.dapeng.benchmark.structs" name="easyStruct2">
+            <fields>
+                <field tag="1" name="v_string1" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRING</kind>
+                    </dataType>
+                </field>
+                <field tag="2" name="v_string2" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRING</kind>
+                    </dataType>
+                </field>
+                <field tag="3" name="v_i32" optional="false" privacy="false">
+                    <dataType>
+                        <kind>INTEGER</kind>
+                    </dataType>
+                </field>
+                <field tag="4" name="v_i64" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LONG</kind>
+                    </dataType>
+                </field>
+                <field tag="5" name="v_string3" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRING</kind>
+                    </dataType>
+                </field>
+                <field tag="6" name="v_double" optional="false" privacy="false">
+                    <dataType>
+                        <kind>DOUBLE</kind>
+                    </dataType>
+                </field>
+            </fields>
+        </struct>
+        <struct namespace="com.github.dapeng.benchmark.structs" name="easyStruct1">
+            <fields>
+                <field tag="1" name="v_string1" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRING</kind>
+                    </dataType>
+                </field>
+                <field tag="2" name="v_string2" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRING</kind>
+                    </dataType>
+                </field>
+                <field tag="3" name="v_i32" optional="false" privacy="false">
+                    <dataType>
+                        <kind>INTEGER</kind>
+                    </dataType>
+                </field>
+                <field tag="4" name="v_i64" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LONG</kind>
+                    </dataType>
+                </field>
+                <field tag="5" name="v_string3" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRING</kind>
+                    </dataType>
+                </field>
+                <field tag="6" name="v_bool" optional="false" privacy="false">
+                    <dataType>
+                        <kind>BOOLEAN</kind>
+                    </dataType>
+                </field>
+            </fields>
+        </struct>
+        <struct namespace="com.github.dapeng.benchmark.structs" name="easyStruct3">
+            <fields>
+                <field tag="1" name="v_string1" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRING</kind>
+                    </dataType>
+                </field>
+                <field tag="2" name="v_string2" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRING</kind>
+                    </dataType>
+                </field>
+                <field tag="3" name="v_i32" optional="false" privacy="false">
+                    <dataType>
+                        <kind>INTEGER</kind>
+                    </dataType>
+                </field>
+                <field tag="4" name="v_i64" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LONG</kind>
+                    </dataType>
+                </field>
+                <field tag="5" name="v_string3" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRING</kind>
+                    </dataType>
+                </field>
+                <field tag="6" name="v_struct" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.easyStruct1</ref>
+                    </dataType>
+                </field>
+            </fields>
+        </struct>
+        <struct namespace="com.github.dapeng.benchmark.structs" name="simpleStruct">
+            <fields>
+                <field tag="1" name="v_string1" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRING</kind>
+                    </dataType>
+                </field>
+                <field tag="2" name="v_string2" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRING</kind>
+                    </dataType>
+                </field>
+                <field tag="3" name="v_int1" optional="false" privacy="false">
+                    <dataType>
+                        <kind>INTEGER</kind>
+                    </dataType>
+                </field>
+                <field tag="4" name="v_int2" optional="false" privacy="false">
+                    <dataType>
+                        <kind>INTEGER</kind>
+                    </dataType>
+                </field>
+                <field tag="5" name="v_struct1" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.easyStruct1</ref>
+                    </dataType>
+                </field>
+                <field tag="6" name="v_struct2" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.easyStruct2</ref>
+                    </dataType>
+                </field>
+                <field tag="7" name="v_list" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LIST</kind>
+                        <valueType>
+                            <kind>STRING</kind>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="8" name="v_map" optional="false" privacy="false">
+                    <dataType>
+                        <kind>MAP</kind>
+                        <keyType>
+                            <kind>STRING</kind>
+                        </keyType>
+                        <valueType>
+                            <kind>MAP</kind>
+                            <keyType>
+<kind>STRING</kind>
+                            </keyType>
+                            <valueType>
+<kind>INTEGER</kind>
+                            </valueType>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="9" name="v_struct3" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.easyStruct3</ref>
+                    </dataType>
+                </field>
+                <field tag="10" name="v_bool" optional="false" privacy="false">
+                    <dataType>
+                        <kind>BOOLEAN</kind>
+                    </dataType>
+                </field>
+            </fields>
+        </struct>
+        <struct namespace="com.github.dapeng.benchmark.structs" name="allStruct">
+            <fields>
+                <field tag="1" name="v_bool" optional="false" privacy="false">
+                    <dataType>
+                        <kind>BOOLEAN</kind>
+                    </dataType>
+                </field>
+                <field tag="2" name="v_i16" optional="false" privacy="false">
+                    <dataType>
+                        <kind>SHORT</kind>
+                    </dataType>
+                </field>
+                <field tag="3" name="v_i32" optional="false" privacy="false">
+                    <dataType>
+                        <kind>INTEGER</kind>
+                    </dataType>
+                </field>
+                <field tag="4" name="v_i64" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LONG</kind>
+                    </dataType>
+                </field>
+                <field tag="5" name="v_double" optional="false" privacy="false">
+                    <dataType>
+                        <kind>DOUBLE</kind>
+                    </dataType>
+                </field>
+                <field tag="6" name="v_string" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRING</kind>
+                    </dataType>
+                </field>
+                <field tag="7" name="v_struct" optional="false" privacy="false">
+                    <dataType>
+                        <kind>STRUCT</kind>
+                        <ref>com.github.dapeng.benchmark.structs.easyStruct1</ref>
+                    </dataType>
+                </field>
+                <field tag="8" name="v_map" optional="false" privacy="false">
+                    <dataType>
+                        <kind>MAP</kind>
+                        <keyType>
+                            <kind>STRING</kind>
+                        </keyType>
+                        <valueType>
+                            <kind>STRING</kind>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="9" name="v_set" optional="false" privacy="false">
+                    <dataType>
+                        <kind>SET</kind>
+                        <valueType>
+                            <kind>STRING</kind>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="10" name="v_list" optional="false" privacy="false">
+                    <dataType>
+                        <kind>LIST</kind>
+                        <valueType>
+                            <kind>STRING</kind>
+                        </valueType>
+                    </dataType>
+                </field>
+                <field tag="11" name="v_enum" optional="false" privacy="false">
+                    <dataType>
+                        <kind>ENUM</kind>
+                        <ref>com.github.dapeng.benchmark.enums.demoEnum</ref>
+                    </dataType>
+                </field>
+            </fields>
+        </struct>
+    </structs>
+    <enums>
+        <tenum namespace="com.github.dapeng.benchmark.enums" name="demoEnum">
+            <items>
+                <item>
+                    <label>DEMO1</label>
+                    <value>1</value>
+                    <doc>
+
+ DEMO1
+</doc>
+                </item>
+                <item>
+                    <label>DEMO2</label>
+                    <value>2</value>
+                    <doc>
+
+ DEMO2
+</doc>
+                </item>
+                <item>
+                    <label>DEMO3</label>
+                    <value>3</value>
+                    <doc>
+
+ DEMO3
+</doc>
+                </item>
+                <item>
+                    <label>DEMO4</label>
+                    <value>4</value>
+                    <doc>
+
+ DEMO4
+</doc>
+                </item>
+                <item>
+                    <label>DEMO5</label>
+                    <value>5</value>
+                    <doc>
+
+ DEMO5
+</doc>
+                </item>
+            </items>
+        </tenum>
+    </enums>
+</service>
