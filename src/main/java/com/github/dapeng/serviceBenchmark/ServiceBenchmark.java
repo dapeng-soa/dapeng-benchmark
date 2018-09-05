@@ -1,4 +1,4 @@
-package com.github.dapeng.sericeBenchmark;
+package com.github.dapeng.serviceBenchmark;
 
 import com.github.dapeng.core.SoaException;
 import com.github.dapeng.demo.DemoServiceClient;
