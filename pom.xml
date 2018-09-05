@@ -61,6 +61,16 @@
             <artifactId>dapeng-client-netty</artifactId>
             <version>${dapeng-verson}</version>
         </dependency>
+        <dependency>
+            <groupId>com.github.dapeng</groupId>
+            <artifactId>dapeng-container-impl</artifactId>
+            <version>${dapeng-verson}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.dapeng</groupId>
+            <artifactId>hello-api_2.12</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 
