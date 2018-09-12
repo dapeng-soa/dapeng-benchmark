@@ -1,11 +1,9 @@
 package com.github.dapeng.serviceBenchmark;
 
 import com.github.dapeng.core.SoaException;
-import com.github.dapeng.demo.DemoServiceAsyncClient;
 import com.github.dapeng.demo.DemoServiceClient;
 import com.github.dapeng.demo.domain.Demo;
 import com.github.dapeng.demo.service.DemoService;
-import com.github.dapeng.demo.service.DemoServiceAsync;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
 import org.openjdk.jmh.runner.Runner;
@@ -27,7 +25,6 @@ import java.util.concurrent.TimeUnit;
 public class ServiceBenchmark {
     private Demo demo;
     private DemoService service;
-    private DemoServiceAsync serviceAsync;
 
     @Setup(Level.Iteration)
     public void serviceTestInit() {
@@ -35,7 +32,6 @@ public class ServiceBenchmark {
         demo.expectCost = 10;
         demo.bytes = 20;
         service = new DemoServiceClient();
-        serviceAsync = new DemoServiceAsyncClient();
     }
 
     /**
