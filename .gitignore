@@ -1,5 +1,4 @@
-target/
 .idea
 *.iml
+target/
 .DS_Store
-soa.base_IS_UNDEFINED
