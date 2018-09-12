@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac2f25be-8720-427b-9a95-e0feb296fe8c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/dapeng/freqControlBenchmark/FreqControlBenchmark.java" afterDir="false" />
+    <list default="true" id="2d48c200-8791-41c4-98f9-16507ad67f02" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/dapeng/serviceBenchmark/AsyncServiceBenchmark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dapeng/jsonBenchmark/JsonBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/dapeng/jsonBenchmark/JsonBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/dapeng/jsonBenchmark/JsonBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/dapeng/jsonBenchmark/JsonBenchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dapeng/sericeBenchmark/ServiceBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/dapeng/serviceBenchmark/ServiceBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/CompilerHints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/dapeng/jsonBenchmark/generated/JsonBenchmark_jmhType_B2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/github/dapeng/jsonBenchmark/generated/JsonBenchmark_jmhType_B2.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,33 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JsonBenchmark.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/jsonBenchmark/JsonBenchmark.java">
+      <file leaf-file-name="AsyncServiceBenchmark.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/serviceBenchmark/AsyncServiceBenchmark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2751">
-              <caret line="269" column="77" selection-start-line="269" selection-start-column="77" selection-end-line="269" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#jsonTestInit#0;class#JsonBenchmark#0" />
-                <element signature="method#getService#0;class#JsonBenchmark#0" />
-                <element signature="method#loadJson#0;class#JsonBenchmark#0" />
-                <element signature="method#buildRequestBuf#0;class#JsonBenchmark#0" />
-                <element signature="method#doTest#0;class#JsonBenchmark#0" />
-                <element signature="method#doAllStructTest#1;class#JsonBenchmark#0" />
-                <element signature="method#doEasyStruct1Test#1;class#JsonBenchmark#0" />
-                <element signature="method#doEasyStruct2Test#1;class#JsonBenchmark#0" />
-                <element signature="method#doEasyStruct3Test#1;class#JsonBenchmark#0" />
-                <element signature="method#doEasyStruct3Test#1;class#JsonBenchmark#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceBenchmark.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/sericeBenchmark/ServiceBenchmark.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-371">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="300">
+              <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,14 +33,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FreqControlBenchmark.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/freqControlBenchmark/FreqControlBenchmark.java">
+      <file leaf-file-name="ServiceBenchmark.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/serviceBenchmark/ServiceBenchmark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="84" column="55" lean-forward="true" selection-start-line="84" selection-start-column="55" selection-end-line="84" selection-end-column="55" />
+            <state relative-caret-position="297">
+              <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#freqControlTestInit#0;class#FreqControlBenchmark#0" />
               </folding>
             </state>
           </provider>
@@ -75,24 +54,21 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fork</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dapeng-benchmark.iml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/resources/easyStruct2.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/easyStruct3.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/allStruct.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/simpleStruct.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/complexStruct.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/dapeng/freqControlBenchmark/freqControlBenchmark.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/dapeng/freqControlBenchmark/FreqControlBenchmark.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/dapeng/sericeBenchmark/ServiceBenchmark.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/dapeng/jsonBenchmark/JsonBenchmark.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/dapeng/serviceBenchmark/ServiceBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/dapeng/serviceBenchmark/AsyncServiceBenchmark.java" />
       </list>
     </option>
   </component>
@@ -133,16 +109,12 @@
     <option name="width" value="1716" />
     <option name="height" value="1047" />
   </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,35 +176,54 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="github" type="462c0819:PsiDirectoryNode" />
               <item name="dapeng" type="462c0819:PsiDirectoryNode" />
-              <item name="sericeBenchmark" type="462c0819:PsiDirectoryNode" />
+              <item name="freqControlBenchmark" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dapeng-benchmark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="dapeng-benchmark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="dapeng" type="462c0819:PsiDirectoryNode" />
+              <item name="jsonBenchmark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dapeng-benchmark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dapeng-benchmark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="dapeng" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceBenchmark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dapeng-benchmark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dapeng-benchmark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/workspace/demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\dapeng-benchmark\src\main\resources\thirft" />
-      <recent name="F:\dapeng-benchmark\src\main\resources" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -246,36 +237,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JsonBenchmark">
-    <configuration name="FreqControlBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.dapeng.freqControlBenchmark.FreqControlBenchmark" />
-      <module name="dapeng-benchmark" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.dapeng.freqControlBenchmark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="JsonBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.dapeng.jsonBenchmark.JsonBenchmark" />
-      <module name="dapeng-benchmark" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.dapeng.jsonBenchmark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Jmh.AsyncServiceBenchmark.serviceAsyncTest">
     <configuration name="ServiceBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.dapeng.sericeBenchmark.ServiceBenchmark" />
+      <option name="MAIN_CLASS_NAME" value="com.github.dapeng.serviceBenchmark.ServiceBenchmark" />
       <module name="dapeng-benchmark" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.dapeng.sericeBenchmark.*" />
+          <option name="PATTERN" value="com.github.dapeng.serviceBenchmark.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,26 +290,27 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="FreqControlBenchmark.idRuleTest" type="jmh-id" factoryName="Jmh" temporary="true" program-parameters="com.github.dapeng.freqControlBenchmark.FreqControlBenchmark.idRuleTest" working-dir="F:\dapeng-benchmark" benchmark-type="METHOD" benchmark-class="com.github.dapeng.freqControlBenchmark.FreqControlBenchmark">
+    <configuration name="AsyncServiceBenchmark.serviceAsyncTest" type="jmh-id" factoryName="Jmh" temporary="true" program-parameters="com.github.dapeng.serviceBenchmark.AsyncServiceBenchmark.serviceAsyncTest" working-dir="F:\dapeng-benchmark" benchmark-type="METHOD" benchmark-class="com.github.dapeng.serviceBenchmark.AsyncServiceBenchmark">
       <module name="dapeng-benchmark" />
     </configuration>
-    <configuration name="FreqControlBenchmark.ipRuleTest" type="jmh-id" factoryName="Jmh" temporary="true" program-parameters="com.github.dapeng.freqControlBenchmark.FreqControlBenchmark.ipRuleTest" working-dir="F:\dapeng-benchmark" benchmark-type="METHOD" benchmark-class="com.github.dapeng.freqControlBenchmark.FreqControlBenchmark">
+    <configuration name="ServiceBenchmark.serviceAsyncTest" type="jmh-id" factoryName="Jmh" temporary="true" program-parameters="com.github.dapeng.serviceBenchmark.ServiceBenchmark.serviceAsyncTest" working-dir="F:\dapeng-benchmark" benchmark-type="METHOD" benchmark-class="com.github.dapeng.serviceBenchmark.ServiceBenchmark">
+      <module name="dapeng-benchmark" />
+    </configuration>
+    <configuration name="ServiceBenchmark.serviceTest" type="jmh-id" factoryName="Jmh" temporary="true" program-parameters="com.github.dapeng.serviceBenchmark.ServiceBenchmark.serviceTest" working-dir="F:\dapeng-benchmark" benchmark-type="METHOD" benchmark-class="com.github.dapeng.serviceBenchmark.ServiceBenchmark">
       <module name="dapeng-benchmark" />
     </configuration>
     <list>
-      <item itemvalue="Application.JsonBenchmark" />
-      <item itemvalue="Jmh.FreqControlBenchmark.ipRuleTest" />
-      <item itemvalue="Jmh.FreqControlBenchmark.idRuleTest" />
-      <item itemvalue="Application.FreqControlBenchmark" />
       <item itemvalue="Application.ServiceBenchmark" />
+      <item itemvalue="Jmh.ServiceBenchmark.serviceTest" />
+      <item itemvalue="Jmh.ServiceBenchmark.serviceAsyncTest" />
+      <item itemvalue="Jmh.AsyncServiceBenchmark.serviceAsyncTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JsonBenchmark" />
+        <item itemvalue="Jmh.AsyncServiceBenchmark.serviceAsyncTest" />
+        <item itemvalue="Jmh.ServiceBenchmark.serviceTest" />
         <item itemvalue="Application.ServiceBenchmark" />
-        <item itemvalue="Application.FreqControlBenchmark" />
-        <item itemvalue="Jmh.FreqControlBenchmark.ipRuleTest" />
-        <item itemvalue="Jmh.FreqControlBenchmark.idRuleTest" />
+        <item itemvalue="Jmh.ServiceBenchmark.serviceAsyncTest" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +338,9 @@
         <entry key="D:/workspace/member" value="PREVIEW" />
         <entry key="D:/workspace/order" value="PREVIEW" />
         <entry key="D:/workspace/service-commons" value="PREVIEW" />
+        <entry key="F:/benchmarkdemo" value="PREVIEW" />
         <entry key="F:/downgrade" value="PREVIEW" />
+        <entry key="F:/hello" value="PREVIEW" />
         <entry key="F:/iddowngrade" value="PREVIEW" />
         <entry key="F:/idgen" value="PREVIEW" />
       </map>
@@ -379,21 +351,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ac2f25be-8720-427b-9a95-e0feb296fe8c" name="Default" comment="" />
-      <created>1535419989418</created>
+      <changelist id="2d48c200-8791-41c4-98f9-16507ad67f02" name="Default" comment="" />
+      <created>1536203381934</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1535419989418</updated>
-      <workItem from="1535419991209" duration="2275000" />
-      <workItem from="1535422335291" duration="59622000" />
+      <updated>1536203381934</updated>
+      <workItem from="1536203384335" duration="15289000" />
+      <workItem from="1536282862874" duration="15712000" />
+      <workItem from="1536543016569" duration="20952000" />
+      <workItem from="1536572363920" duration="5686000" />
+      <workItem from="1536636029226" duration="24318000" />
+      <workItem from="1536721108846" duration="4358000" />
+      <workItem from="1536729645136" duration="4223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61897000" />
+    <option name="totallyTimeSpent" value="90538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50053304" side_tool="true" weight="0.32922733" />
@@ -406,18 +384,18 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6263982" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39081746" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32922733" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.53691274" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32885906" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="AEM" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.36129755" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21029083" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4440716" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35234898" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16364606" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.35834268" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15298508" />
       <window_info anchor="right" id="Maven-2 Build" order="12" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -439,272 +417,224 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/jsonBenchmark/JsonBenchmark.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/serviceBenchmark/ServiceBenchmark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        <state relative-caret-position="2916">
+          <caret line="108" column="22" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getService#0;class#JsonBenchmark#0" />
-            <element signature="method#loadJson#0;class#JsonBenchmark#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/crmService_listDoctorsNameById-map.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="756">
+            <caret line="28" selection-start-line="28" selection-end-line="28" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/javax/xml/transform/sax/SAXSource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/serviceBenchmark/ServiceBenchmark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dapeng-benchmark.iml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/dapeng/FirstBenchmark.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/crm.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/crmService_getPatient-option.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/benchmarkDemoService.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/easyStruct2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/easyStruct1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/easyStruct3.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/simpleStruct.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-846">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/com/github/dapeng/jsonBenchmark/generated/JsonBenchmark_doTest_jmhTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="375" column="16" selection-start-line="375" selection-start-column="16" selection-end-line="375" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/dapeng/dapeng-core/2.0.5/dapeng-core-2.0.5-sources.jar!/com/github/dapeng/core/metadata/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.jar!/org/openjdk/jmh/annotations/Benchmark.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/thirft/complexStruct.thrift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/complexStruct.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14632">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/allStruct.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/serviceBenchmark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/dapeng/dapeng-container-impl/2.0.5/dapeng-container-impl-2.0.5-sources.jar!/com/github/dapeng/impl/filters/freq/ShmManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
+        <state relative-caret-position="2808">
+          <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
           <folding>
-            <element signature="e#2593#2594#0" expanded="true" />
-            <element signature="e#2624#2625#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/dapeng/hello-api_2.12/0.1-SNAPSHOT/hello-api_2.12-0.1-SNAPSHOT-sources.jar!/D:/workspace/demo/hello-api/target/scala-2.12/src_managed/main/java/com/github/dapeng/demo/DemoServiceCodec.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="756">
+            <caret line="28" selection-start-line="28" selection-end-line="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/serviceBenchmark/ServiceBenchmark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        <state relative-caret-position="1377">
+          <caret line="51" column="121" lean-forward="true" selection-start-line="51" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/jsonBenchmark/JsonBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3186">
+          <caret line="118" column="68" selection-start-line="118" selection-start-column="44" selection-end-line="118" selection-end-column="68" />
+          <folding>
+            <element signature="method#buildRequestBuf#0;class#JsonBenchmark#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/serviceBenchmark/ServiceBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/jsonBenchmark/JsonBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="118" column="68" selection-start-line="118" selection-start-column="44" selection-end-line="118" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/serviceBenchmark/ServiceBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/jsonBenchmark/JsonBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="118" column="68" selection-start-line="118" selection-start-column="44" selection-end-line="118" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/serviceBenchmark/ServiceBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
-        </state>
+        <state relative-caret-position="-1371" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/dapeng/hello-api_2.12/0.1-SNAPSHOT/hello-api_2.12-0.1-SNAPSHOT.jar!/com/github/dapeng/demo/service/DemoService.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="405">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/dapeng/hello-api_2.12/0.1-SNAPSHOT/hello-api_2.12-0.1-SNAPSHOT.jar!/com.github.dapeng.demo.service.DemoService.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/workspace/demo/hello-api/target/scala-2.12/src_managed/main/java/com/github/dapeng/demo/service/DemoService.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="139">
+          <caret line="852" selection-start-line="852" selection-end-line="852" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/ref/ReferenceQueue.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/dapeng/hello-api_2.12/0.1-SNAPSHOT/hello-api_2.12-0.1-SNAPSHOT.jar!/com/github/dapeng/demo/DemoServiceAsyncClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
+        <state relative-caret-position="290">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/dapeng/dapeng-json/2.0.5/dapeng-json-2.0.5-sources.jar!/com/github/dapeng/json/OptimizedMetadata.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.jar!/org/openjdk/jmh/runner/options/ChainedOptionsBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="55" column="41" lean-forward="true" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+        <state relative-caret-position="289">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/dapeng/dapeng-json/2.0.5/dapeng-json-2.0.5-sources.jar!/com/github/dapeng/json/JsonSerializer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.jar!/org/openjdk/jmh/runner/Runner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="272">
+          <caret line="84" column="11" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/dapeng/dapeng-core/2.0.5/dapeng-core-2.0.5-sources.jar!/com/github/dapeng/core/SoaHeaderSerializer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.jar!/org/openjdk/jmh/runner/options/OptionsBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="233" selection-start-line="233" selection-end-line="233" />
+        <state relative-caret-position="272">
+          <caret line="36" column="44" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/dapeng/dapeng-core/2.0.5/dapeng-core-2.0.5-sources.jar!/com/github/dapeng/core/helper/SoaSystemEnvProperties.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/dapeng/hello-api_2.12/0.1-SNAPSHOT/hello-api_2.12-0.1-SNAPSHOT.jar!/com/github/dapeng/demo/service/DemoServiceAsync.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="120" column="32" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/jsonBenchmark/JsonBenchmark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2751">
-          <caret line="269" column="77" selection-start-line="269" selection-start-column="77" selection-end-line="269" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#jsonTestInit#0;class#JsonBenchmark#0" />
-            <element signature="method#getService#0;class#JsonBenchmark#0" />
-            <element signature="method#loadJson#0;class#JsonBenchmark#0" />
-            <element signature="method#buildRequestBuf#0;class#JsonBenchmark#0" />
-            <element signature="method#doTest#0;class#JsonBenchmark#0" />
-            <element signature="method#doAllStructTest#1;class#JsonBenchmark#0" />
-            <element signature="method#doEasyStruct1Test#1;class#JsonBenchmark#0" />
-            <element signature="method#doEasyStruct2Test#1;class#JsonBenchmark#0" />
-            <element signature="method#doEasyStruct3Test#1;class#JsonBenchmark#0" />
-            <element signature="method#doEasyStruct3Test#1;class#JsonBenchmark#0" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/freqControlBenchmark/FreqControlBenchmark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="84" column="55" lean-forward="true" selection-start-line="84" selection-start-column="55" selection-end-line="84" selection-end-column="55" />
+        <state relative-caret-position="378">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/jsonBenchmark/JsonBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="147" column="14" lean-forward="true" selection-start-line="147" selection-start-column="14" selection-end-line="147" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#freqControlTestInit#0;class#FreqControlBenchmark#0" />
+            <element signature="method#buildRequestBuf#0;class#JsonBenchmark#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/sericeBenchmark/ServiceBenchmark.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="756">
+            <caret line="28" selection-start-line="28" selection-end-line="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/serviceBenchmark/ServiceBenchmark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-371">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="297">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dapeng/serviceBenchmark/AsyncServiceBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
